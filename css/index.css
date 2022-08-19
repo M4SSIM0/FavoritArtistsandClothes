@@ -7,13 +7,15 @@ body {
     margin: 0;
     padding: 0;
 }
-.container {
+
+.container1 {
     position: relative;
     width: 100%;
     height: 100vh;
     scroll-behavior: smooth;
     overflow: auto;
     scroll-snap-type: y mandatory;
+    align-content: center;
 
 }
 .section {
