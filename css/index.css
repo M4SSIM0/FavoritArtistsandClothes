@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Bebas;
+    src: url('./fonts/BebasNeue-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+
+}
+.section {
+    width: 100%;
+    height: 100vh;
+    background-size:  cover;
+    scroll-snap-align: start;
+}
+.section:nth-child(1) {
+    background-size: cover;
+    background: no-repeat center;
+}
+.section:nth-child(2) {
+
+}
+
+
+
